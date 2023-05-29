@@ -1,12 +1,21 @@
-# whatsup-project
+# whatsup-project для GreenAPI
 
-# Getting Started with Yarn
+## Развертывание проекта
 
-## Available Scripts
+1. Клонировать репозиторий для локального использования
 
-In the project directory, you can run:
+### `git clone https://github.com/fakeryrelay/whatsup-project.git`
+
+2. Перейти в папку с проектом
+
+### `cd whatsup-project`
+
+3. Установить необходимые библиотеки
+
+### `yarn`
+
+4. Запустить приложение
 
 ### `yarn dev`
 
-Runs the app in the development mode.\
-Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+Перейти на [http://localhost:5173](http://localhost:5173) чтобы работать с приложением в своем браузере.
