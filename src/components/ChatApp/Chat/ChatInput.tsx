@@ -34,7 +34,10 @@ export const ChatInput: FC<TypeChatInput> = ({ sendMessage }) => {
           setInputValue(e.target.value);
         }}
       ></textarea>
-      <button onClick={() => sendMessage(inputValue)}>
+      <button onClick={() => {
+        sendMessage(inputValue)
+        setInputValue('')
+      }}>
         <svg
           viewBox="0 0 24 24"
           height="24"
