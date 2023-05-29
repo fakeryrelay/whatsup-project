@@ -118,7 +118,7 @@ export const Chat: FC = () => {
 
       <ChatArea messages={chatData?.messages} setChatData={setChatData} />
 
-      <ChatInput sendMessage={sendMessage} />
+      <ChatInput sendMessage={sendMessage} isActive={!!activeChatUser}/>
     </div>
   );
 };

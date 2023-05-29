@@ -3,9 +3,10 @@ import styles from "../Chat.module.scss";
 
 type TypeChatInput = {
   sendMessage: (inputValue: string) => void;
+  isActive: boolean
 };
 
-export const ChatInput: FC<TypeChatInput> = ({ sendMessage }) => {
+export const ChatInput: FC<TypeChatInput> = ({ sendMessage, isActive }) => {
   const [inputValue, setInputValue] = useState<string>("");
 
   const onEnterPress = (
@@ -22,6 +23,7 @@ export const ChatInput: FC<TypeChatInput> = ({ sendMessage }) => {
   return (
     <form className={styles.chat__input} onSubmit={(e) => e.preventDefault()}>
       <textarea
+        disabled={!isActive} 
         placeholder="Введите сообщение"
         value={inputValue}
         onKeyDown={(e) => {
@@ -34,7 +36,7 @@ export const ChatInput: FC<TypeChatInput> = ({ sendMessage }) => {
           setInputValue(e.target.value);
         }}
       ></textarea>
-      <button onClick={() => {
+      <button disabled={!isActive} onClick={() => {
         sendMessage(inputValue)
         setInputValue('')
       }}>
