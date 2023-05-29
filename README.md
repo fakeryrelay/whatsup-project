@@ -38,4 +38,4 @@
 
 3. Видеоинструкция
 
-[![Watch the video](https://youtu.be/wlzS_XS9b8U)](https://youtu.be/wlzS_XS9b8U)
+[![Watch the video](https://i.ibb.co/YTmhtJy/auth.jpg)](https://youtu.be/wlzS_XS9b8U)
