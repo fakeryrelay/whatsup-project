@@ -36,6 +36,4 @@
 1) Начинается либо с "+" либо с цифры
 2) Количество цифр в номере равно либо 10, либо 11
 
-3. Видеоинструкция
-
-[![Watch the video](https://i.ibb.co/YTmhtJy/auth.jpg)](https://youtu.be/wlzS_XS9b8U)
+3. [Видеоинструкция](https://youtu.be/wlzS_XS9b8U)
