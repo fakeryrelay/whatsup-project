@@ -19,3 +19,5 @@
 ### `yarn dev`
 
 Перейти на [http://localhost:5173](http://localhost:5173) чтобы работать с приложением в своем браузере.
+
+![alt text](https://i.ibb.co/Nnyx6kQ/finance-Jpg-Norm.jpg)
